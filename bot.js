@@ -9,7 +9,7 @@ import fs from "fs"
     const baseURL = "https://www.jumia.com.gh/home-audio-electronics/";
     const totalPages = 2;
 
-    // Array to store all products from all pages
+    
     let allProducts = [];
 
     // Loop through each page
