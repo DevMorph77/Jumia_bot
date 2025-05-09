@@ -29,7 +29,7 @@ import fs from "fs"
 
         await page.waitForTimeout(3000);// Waiting for page content to settle
     
-        await page.waitForSelector('article.prd._fb.col.c-prd',{timeout:10000})
+        
 
         const product_electronics = await page.evaluate(() => {
             const items = Array.from(document.querySelectorAll('article.prd._fb.col.c-prd'));
